@@ -10,12 +10,12 @@ class image3 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_image3)
 
-        button6.setOnClickListener {
-            val intent = Intent(baseContext, image2::class.java)
+        btn13.setOnClickListener {
+            startActivity(Intent(baseContext, image2::class.java))
         }
 
-        button7.setOnClickListener {
-            val intent = Intent(baseContext, image4::class.java)
+        btn14.setOnClickListener {
+           startActivity(Intent(baseContext, image4::class.java))
         }
     }
 }

@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btOne.setOnClickListener {
-            val intent = Intent(baseContext, MainActivity::class.java)
+            startActivity(Intent(baseContext,image2::class.java))
         }
 
 

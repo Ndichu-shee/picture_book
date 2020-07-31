@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/lake"
-        android:layout_width="413dp"
-        android:layout_height="358dp"
+        android:layout_width="352dp"
+        android:layout_height="308dp"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
         android:layout_marginTop="1dp"
@@ -36,9 +36,9 @@
         app:layout_constraintTop_toBottomOf="@+id/lake" />
 
     <Button
-        android:id="@+id/button12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/btn13"
+        android:layout_width="90dp"
+        android:layout_height="39dp"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
         android:layout_marginTop="116dp"
@@ -51,17 +51,18 @@
         app:layout_constraintTop_toBottomOf="@+id/etlake" />
 
     <Button
-        android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/btnNext"
+        android:layout_width="85dp"
+        android:layout_height="39dp"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
         android:layout_marginTop="116dp"
         android:layout_marginEnd="1dp"
         android:layout_marginRight="1dp"
-        android:text="next"
+        android:text="Next"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.846"
-        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toEndOf="@+id/btn13"
         app:layout_constraintTop_toBottomOf="@+id/etlake" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
